@@ -1080,3 +1080,516 @@ body
 html {
     scroll-behavior: smooth;
 }
+.burger-menu{
+    display: none;
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 40px;
+    }
+    .header-name {
+        font-size: 30px;
+    }
+    .nav-item {
+        font-size: 24px;
+        margin-top: 100px;
+    }
+    .search,
+    .basket {
+        margin-left: 15px;
+    }
+    .banner-title{
+        margin-left: -100px;
+        margin-right: 500px;
+        margin-top: 230px;
+    }
+    .banner-subtitle{
+        margin-left: -100px;
+        margin-right: 700px;
+        margin-top: 450px;
+    }
+    .btncatalog {
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    .btnbasket{
+        margin-left: -110px;
+        margin-top: 20px;
+    }
+    .block-back{
+    margin-left: -430px;
+    }
+    .reviews-back{
+        margin-left: -400px;
+        height: 1500px;
+    }
+    .cards-holder{
+        margin-left: -160px;
+    }
+    .aboutUs-desc{
+        margin-right: 700px;
+        margin-left: 80px;
+    }
+    .aboutUs-images{
+        margin-left: -300px;
+        margin-top: 110px;
+    }
+    .aboutUs-line{
+        margin-left: -70px;
+    }
+    .socialMedia{
+        margin-left: -350px;
+        margin-top: 60px;
+    }
+    .block{
+        margin-left: -100px;
+    }
+    .catalog-title{
+        margin-left: -950px;
+    }
+    .reviews-img{
+        display: none;
+    }
+    .reviews-title{
+        margin-left: -950px;
+    }
+    .add-title{
+        margin-left: -800px;
+    }
+    .add-form{
+        margin-left: -140px;
+        transform: scale(0.9);
+    }
+    .review-navig{
+        margin-left: 500px;
+    }
+    .dp-title{
+        margin-left: -700px;
+    }
+    .footer-img
+    {
+        display: none;
+    }
+    .secondrow-text{
+        margin-bottom: 100px;
+    }
+    .footer-back{
+        margin-left: -400px;
+        margin-top: -150px;
+    }
+    .footer{
+        margin-top: 450px;
+    }
+    .footer-logo{
+        margin-top: -150px;
+    }
+    .footer-name{
+        margin-top: -70px;
+    }
+    .catalog-f{
+        margin-left: 600px;
+    }
+    .email-f{
+        margin-left: -80px;
+        transform: scale(0.9);
+    }
+    .socialMedia-f{
+        margin-left: -100px;
+    }
+    .typ-title{
+        margin-left: -600px;
+    }
+    .typ-frow{
+        margin-left: -100px;
+    }
+    .typ-srow{
+        margin-left: -80px;
+    }
+    .typ-buttons{
+        margin-left: -140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container{
+        margin: auto;
+    }
+    .header-ln{
+        margin: auto;
+        margin-top: -20px;
+    }
+    .burger-menu{
+        margin-left: 500px;
+    }
+    .banner-title {
+        font-size: 30px;
+    }
+    .banner-subtitle {
+        font-size: 20px;
+        margin-right: 600px;
+    }
+    .btncatalog {
+        transform: scale(0.8);
+        margin-left: 80px;
+        margin-top: -10px;
+    }
+    .btnbasket{
+        transform: scale(0.8);
+        margin-left: -130px;
+        margin-top: -10px;
+    }
+    .cards-holder {
+        display: block;
+        margin-left: 100px;
+    }
+    .aboutUs-desc{
+        margin-right: 550px;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .aboutUs-images{
+        margin-left: -400px;
+        transform: scale(0.8);
+        margin-top: 30px;
+    }
+    .socialMedia{
+        margin-top: 10px;
+        margin-left: -400px;
+    }
+    .aboutUs-line{
+        margin-top: 470px;
+    }
+    .first-row {
+        display: block;
+        justify-content: center;
+        padding-left: 150px;
+        margin-bottom: -20px;
+    }
+    .second-row {
+        display: block;
+        justify-content: center;
+        padding-left: 150px;
+    }
+    .catalog-title{
+        margin-left: -750px;
+    }
+    .bouquet{
+        margin-top: 20px;
+    }
+    .nav,
+    .search,
+    .basket {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+        left: -100px;
+    }
+    .aboutUs-title{
+        font-size: 40px;
+        margin: auto;
+        padding-left: 30px;
+    }
+    .aboutUs-desc{
+        padding-left: 30px;
+    }
+    .reviews-img,
+    .reviews-img1,
+    .footer-img{
+        display: none;
+    }
+    .navigation{
+        margin-left: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin: auto;
+    }
+    .header {
+        margin: auto;
+    }
+    .header-line {
+        justify-content: space-between;
+        width: auto;
+    }
+    .nav,
+    .search,
+    .basket {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+    .cards-container {
+        margin: auto 40px;
+    }
+    .cards-holder {
+        display: block;
+    }
+    .banner-image {
+        margin: auto;
+        transform: scale(0.4);
+        margin-left: -100px;
+    }
+    .block{
+        display: none;
+        margin: auto;
+    }
+    .aboutUs-images {
+        transform: scale(0.6);
+        margin-left: -110px;
+    }
+
+    .images-1, .images-2 {
+        margin-left: -1000px;
+        margin-right: auto;
+    }
+    .reviews-img,
+    .reviews-img1,
+    .footer-img{
+        display: none;
+    }
+    .first-row {
+        display: block;
+        justify-content: center;
+        padding-left: 30px;
+        margin-bottom: -20px;
+    }
+    .second-row {
+        display: block;
+        justify-content: center;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin: auto;
+    } 
+    .header-ln{
+        margin-left: -70px;
+    }
+    .burger-menu{
+        margin-left: 150px;
+    }
+    .banner-title{
+        margin-left: 30px;
+        margin-top: 100px;
+        margin-right:20px;
+    }
+    .banner-subtitle{
+        margin-left: -50px;
+        margin-top: 250px;
+        margin-right:80px;
+    }
+    .header-btn{
+        margin-left: 30px;
+        margin-top: 450px;
+    }
+    .cards-holder {
+        display: block;
+        margin-left: -10px;
+        margin-top: 600px;
+    }
+    .banner-image{
+        display: none;
+    }
+    .catalog-holder {
+        display: block;
+    }
+    .header-name {
+        font-size: 25px;
+    }
+    .banner-title {
+        font-size: 30px;
+    }
+    .banner-subtitle {
+        font-size: 18px;
+    }
+    .btnbasket{
+        margin-left: -150px;
+        transform: scale(0.8);
+    }
+    .btncatalog {
+        margin-left: 60px;
+        transform: scale(0.8);
+    }
+    .aboutUs-images{
+        display: none;
+    }
+    .aboutUs-title{
+        font-size: 30px;
+    }
+    .aboutUs-desc{
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 190px;
+    }
+    .aboutUs-line{
+        margin-top: 190px;
+        margin-left: -100px;
+    }
+    .socialMedia{
+        margin-left: -1000px;
+        
+    }
+    .block-back{
+        margin-left: -1125px;
+    }
+    .block-title{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .reviews-img,
+    .reviews-img1{
+        display: none;
+    }
+    .catalog-title{
+        margin-left: -310px;
+        font-size: 30px;
+        margin-top: 150px;
+    }
+    .first-row {
+        margin-left: -20px;
+        margin-top: 50px;
+        display: block;
+        justify-content: center;
+        padding-left: 10px;
+        margin-bottom: -20px;
+    }
+    .second-row {
+        margin-left: -20px;
+        display: block;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .navigation{
+        margin-left: 70px;
+    }
+    .reviews-back{
+        margin-left: -1125px;
+        height: 1000px;
+    }
+    .first-avatar,
+    .second-avatar{
+        display: none;
+    }
+    .reviews-title{
+        margin-left: -250px;
+        font-size: 30px;
+    }
+    .first-desc{
+        margin-left: 30px;
+        font-size: 18px;
+        margin-top: 70px;
+    }
+    .first-line,
+    .second-line{
+        margin-left: 40px;
+    }
+    .first-name,
+    .second-name{
+        margin-left: 40px;
+        font-size: 18px;
+    }
+    .second-desc{
+        margin-left: 30px;
+        font-size: 18px;
+        margin-top: 80px;
+    }
+    .review-navig{
+        margin-left: 70px;
+    }
+    .add-form{
+        transform: scale(0.4);
+        margin-left: -280px;
+        margin-top: -100px;
+    }
+    .add-btn{
+        transform: scale(0.8);
+        margin-top: -40px;
+    }
+    .dp-title{
+        margin-left: -150px;
+        font-size: 30px;
+    }
+    .firstrow-numbers,
+    .secondrow-numbers{
+        transform: scale(0.5);
+        margin-right: -10px;
+    }
+    .firstrow-text,
+    .secondrow-text{
+        font-size: 18px;
+        margin-top: -20px;
+    }
+    .two,
+    .five{
+        margin-right: 90px;
+    }
+    .three-text,
+    .five-text{
+        margin-right: -40px;
+    }
+    .footer-back{
+        margin-left: -1125px;
+    }
+    .footer-logo,
+    .footer-name{
+        display: none;
+    }
+    .con-desc,
+    .info-desc,
+    .cat-desc{
+        font-size: 13px;
+    }
+    .con-title,
+    .info-title,
+    .cat-title{
+        font-size: 20px;
+    }
+    .con-desc,
+    .con-title{
+        margin-left: -100px;
+    }
+    .info-desc,
+    .info-title{
+        margin-left: -190px;
+    }
+    .cat-desc,
+    .cat-title{
+        margin-left: -290px;
+    }
+    .email-f{
+        display: none;
+    }
+    .socialMedia-f{
+        margin-left: -750px;
+    }
+    .сopyright{
+        margin-left: 10px;
+    }
+    .typ-title{
+        font-size: 30px;
+        margin-left: -90px;
+    }
+    .typ-images,
+    .typ-fonts{
+        display: none;
+    }
+    .typ-colors{
+        transform: scale(0.5);
+        margin-left: -100px;
+        margin-top: -30px;
+    }
+    .typ-buttons{
+        transform: scale(0.8);
+        margin-left: -860px;
+        margin-top: -100px;
+    }
+}
+
